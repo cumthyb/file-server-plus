@@ -122,5 +122,7 @@ class StaticFileServer {
   }
 }
 
+module.exports=StaticFileServer
+
 // var server = new StaticFileServer()
 // server.start()
