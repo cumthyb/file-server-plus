@@ -1,17 +1,33 @@
 {
   "name": "file-server-plus",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "DEBUG='file-server-plus' node server.js "
+    "test": "DEBUG='file-server-plus' node server.js ",
+    "start": "node server.js "
   },
   "bin": {
     "file-server-plus": "./bin/file-server"
   },
-  "keywords": [],
+  "contributors": [
+    {
+      "name": "cumthyb",
+      "email": "cumthyb@163.com",
+      "url": "http://cumthyb.site"
+    }
+  ],
+  "keywords": ["file","file-server","static-server","static-file-server"],
   "author": "",
   "license": "MIT",
+  "homepage": "https://github.com/cumthyb/file-server-plus#README",
+  "bugs": {
+    "url": "https://github.com/cumthyb/file-server-plus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cumthyb/file-server-plus.git"
+  },
   "dependencies": {
     "chalk": "^2.4.2",
     "handlebars": "^4.1.1",
